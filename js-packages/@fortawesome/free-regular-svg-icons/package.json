@@ -52,5 +52,11 @@
     },
     "./package.json": "./package.json",
     "./*": "./*.js"
+  },
+  "devDependencies": {
+    "rollup-plugin-banner2": "^1.3.0"
+  },
+  "scripts": {
+    "build":"rollup -c"
   }
 }
