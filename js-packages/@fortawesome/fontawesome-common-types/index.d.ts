@@ -1,5 +1,5 @@
 export type IconFamily = "classic" | "duotone" | "sharp" | "sharp-duotone";
-export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fasds" | "fab" | "fak" | "fakd";
+export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fadr" | "fadl" | "fadt" | "fasds" | "fasdr" | "fasdl" | "fasdt" | "fab" | "fak" | "fakd";
 export type CssStyleClass = "fa-solid" | "fa-regular" | "fa-light" | "fa-thin" | "fa-duotone" | "fa-brands";
 export type IconStyle = "solid" | "regular" | "light" | "thin" | "duotone" | "brands";
 export type IconPathData = string | string[]
@@ -223,17 +223,17 @@ export type IconName = '0' |
   'bath' | 
   'bathtub' | 
   'battery' | 
+  'battery-0' | 
+  'battery-2' | 
+  'battery-3' | 
+  'battery-4' | 
+  'battery-5' | 
   'battery-car' | 
   'battery-empty' | 
   'battery-full' | 
   'battery-half' | 
   'battery-quarter' | 
   'battery-three-quarters' | 
-  'battery0' | 
-  'battery2' | 
-  'battery3' | 
-  'battery4' | 
-  'battery5' | 
   'battle-net' | 
   'bed' | 
   'bed-pulse' | 
@@ -439,6 +439,7 @@ export type IconName = '0' |
   'chart-area' | 
   'chart-bar' | 
   'chart-column' | 
+  'chart-diagram' | 
   'chart-gantt' | 
   'chart-line' | 
   'chart-pie' | 
@@ -563,6 +564,7 @@ export type IconName = '0' |
   'comment-dollar' | 
   'comment-dots' | 
   'comment-medical' | 
+  'comment-nodes' | 
   'comment-slash' | 
   'comment-sms' | 
   'commenting' | 
@@ -854,6 +856,8 @@ export type IconName = '0' |
   'file-edit' | 
   'file-excel' | 
   'file-export' | 
+  'file-fragment' | 
+  'file-half-dashed' | 
   'file-image' | 
   'file-import' | 
   'file-invoice' | 
@@ -873,6 +877,7 @@ export type IconName = '0' |
   'file-waveform' | 
   'file-word' | 
   'file-zipper' | 
+  'files-pinwheel' | 
   'fill' | 
   'fill-drip' | 
   'film' | 
@@ -1127,6 +1132,8 @@ export type IconName = '0' |
   'helicopter-symbol' | 
   'helmet-safety' | 
   'helmet-un' | 
+  'hexagon-nodes' | 
+  'hexagon-nodes-bolt' | 
   'highlighter' | 
   'hiking' | 
   'hill-avalanche' | 
@@ -1158,13 +1165,13 @@ export type IconName = '0' |
   'hotel' | 
   'hotjar' | 
   'hourglass' | 
+  'hourglass-1' | 
+  'hourglass-2' | 
+  'hourglass-3' | 
   'hourglass-empty' | 
   'hourglass-end' | 
   'hourglass-half' | 
   'hourglass-start' | 
-  'hourglass1' | 
-  'hourglass2' | 
-  'hourglass3' | 
   'house' | 
   'house-chimney' | 
   'house-chimney-crack' | 
@@ -1322,6 +1329,7 @@ export type IconName = '0' |
   'linux' | 
   'lira-sign' | 
   'list' | 
+  'list-1-2' | 
   'list-alt' | 
   'list-check' | 
   'list-dots' | 
@@ -1329,7 +1337,6 @@ export type IconName = '0' |
   'list-ol' | 
   'list-squares' | 
   'list-ul' | 
-  'list12' | 
   'litecoin-sign' | 
   'location' | 
   'location-arrow' | 
@@ -1898,9 +1905,9 @@ export type IconName = '0' |
   'sign-out' | 
   'sign-out-alt' | 
   'signal' | 
+  'signal-5' | 
   'signal-messenger' | 
   'signal-perfect' | 
-  'signal5' | 
   'signature' | 
   'signing' | 
   'signs-post' | 
@@ -1987,6 +1994,7 @@ export type IconName = '0' |
   'square' | 
   'square-arrow-up-right' | 
   'square-behance' | 
+  'square-binary' | 
   'square-caret-down' | 
   'square-caret-left' | 
   'square-caret-right' | 
@@ -2152,6 +2160,11 @@ export type IconName = '0' |
   'telegram-plane' | 
   'teletype' | 
   'television' | 
+  'temperature-0' | 
+  'temperature-1' | 
+  'temperature-2' | 
+  'temperature-3' | 
+  'temperature-4' | 
   'temperature-arrow-down' | 
   'temperature-arrow-up' | 
   'temperature-down' | 
@@ -2163,11 +2176,6 @@ export type IconName = '0' |
   'temperature-quarter' | 
   'temperature-three-quarters' | 
   'temperature-up' | 
-  'temperature0' | 
-  'temperature1' | 
-  'temperature2' | 
-  'temperature3' | 
-  'temperature4' | 
   'tencent-weibo' | 
   'tenge' | 
   'tenge-sign' | 
@@ -2189,16 +2197,16 @@ export type IconName = '0' |
   'themeco' | 
   'themeisle' | 
   'thermometer' | 
+  'thermometer-0' | 
+  'thermometer-1' | 
+  'thermometer-2' | 
+  'thermometer-3' | 
+  'thermometer-4' | 
   'thermometer-empty' | 
   'thermometer-full' | 
   'thermometer-half' | 
   'thermometer-quarter' | 
   'thermometer-three-quarters' | 
-  'thermometer0' | 
-  'thermometer1' | 
-  'thermometer2' | 
-  'thermometer3' | 
-  'thermometer4' | 
   'think-peaks' | 
   'threads' | 
   'thumb-tack' | 
@@ -2450,8 +2458,8 @@ export type IconName = '0' |
   'whiskey-glass' | 
   'whmcs' | 
   'wifi' | 
+  'wifi-3' | 
   'wifi-strong' | 
-  'wifi3' | 
   'wikipedia-w' | 
   'wind' | 
   'window-close' | 

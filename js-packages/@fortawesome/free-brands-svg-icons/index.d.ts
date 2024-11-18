@@ -118,6 +118,7 @@ export const faScribd: IconDefinition;
 export const faDebian: IconDefinition;
 export const faOpenid: IconDefinition;
 export const faInstalod: IconDefinition;
+export const faFilesPinwheel: IconDefinition;
 export const faExpeditedssl: IconDefinition;
 export const faSellcast: IconDefinition;
 export const faSquareTwitter: IconDefinition;
