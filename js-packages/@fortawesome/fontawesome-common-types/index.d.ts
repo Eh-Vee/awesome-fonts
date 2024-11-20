@@ -618,6 +618,7 @@ export type IconName = '0' |
   'crown' | 
   'crutch' | 
   'cruzeiro-sign' | 
+  'css' | 
   'css3' | 
   'css3-alt' | 
   'cube' | 
@@ -1995,6 +1996,7 @@ export type IconName = '0' |
   'square-arrow-up-right' | 
   'square-behance' | 
   'square-binary' | 
+  'square-bluesky' | 
   'square-caret-down' | 
   'square-caret-left' | 
   'square-caret-right' | 
