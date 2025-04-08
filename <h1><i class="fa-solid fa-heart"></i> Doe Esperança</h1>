@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A doação de medula óssea pode salvar vidas. Conheça mais, inspire-se com histórias reais e cadastre-se para ser um doador.">
+  <title>Doe Esperança - Doação de Medula Óssea</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #d62828;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #d62828;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f77f00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    .depoimento {
+      background: #ffe5b4;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Doe Esperança</h1>
+    <p>A doação de medula óssea transforma vidas</p>
+    <nav>
+      <a href="#quem-pode-doar">Quem Pode Doar</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#historias">Histórias</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <section>
+    <h2>A Doação Que Transforma Vidas</h2>
+    <p>A doação de medula óssea é um gesto simples que pode ser a única chance de cura para milhares de pessoas com doenças graves. Cada cadastro é uma nova esperança.</p>
+    <a class="btn" href="https://redome.inca.gov.br/" target="_blank">Cadastre-se no REDOME</a>
+  </section>  <section id="quem-pode-doar">
+    <h2>Quem Pode Doar</h2>
+    <p>Você pode ser um doador se tiver entre 18 e 35 anos, estiver em boas condições de saúde e não tiver doenças infecciosas ou autoimunes graves. É simples, rápido e pode salvar uma vida.</p>
+  </section>  <section id="como-funciona">
+    <h2>Como Funciona a Doação</h2>
+    <ol>
+      <li>Faça seu cadastro no REDOME e doe uma pequena amostra de sangue.</li>
+      <li>Se for compatível com um paciente, você será chamado para exames complementares.</li>
+      <li>O processo de doação é feito por aspiração da medula ou por aférese, com anestesia ou sedação.</li>
+    </ol>
+  </section>  <section id="historias">
+    <h2>Histórias de Esperança</h2>
+    <div class="depoimento">
+      <p>“Encontrei um doador compatível graças ao REDOME. Hoje estou saudável e agradecida por esse gesto de amor.” — Ana Paula, 32 anos</p>
+    </div>
+    <div class="depoimento">
+      <p>“Doei minha medula e foi a melhor decisão da minha vida. Saber que pude salvar alguém é indescritível.” — Rafael Costa, 29 anos</p>
+    </div>
+  </section>  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Quer tirar dúvidas ou compartilhar sua história? Envie uma mensagem para <strong>contato@doeesperanca.org</strong> ou fale conosco pelo WhatsApp: (11) 91234-5678.</p>
+  </section>  <footer>
+    <p>&copy; 2025 Doe Esperança. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
